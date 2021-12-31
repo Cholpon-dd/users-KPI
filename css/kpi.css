@@ -10,6 +10,11 @@ body {
   height: 100%;
   overflow: hidden;
 }
+.main-title {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
 .container {
   max-width: 968px;
   width: 100%;
@@ -140,6 +145,18 @@ ul {
 }
 .card-img-top:hover {
   transform: scale(1.2);
+}
+button.delete {
+ background-color: #462136;
+ padding: 5px 10px;
+ color: azure;
+ border-radius: 2px;
+}
+button.edit {
+  background-color: #682f4f;
+  padding: 5px 10px;
+  color: azure;
+  border-radius: 2px;
 }
 @media all and (max-width: 425px) {
   .auth-form {
